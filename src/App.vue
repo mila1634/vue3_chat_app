@@ -355,4 +355,30 @@ export default {
 		}
 	}
 }
+
+//media queries
+@media only screen and (min-width: 778px) {
+	.view {
+		&.login {
+			.login-form {
+				width: 800px;
+			}
+		}
+
+		&.chat {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+			.chat-box {
+				width: 800px;
+			}
+
+			footer {
+				width: 800px;
+			}
+			
+		}
+	}
+}
 </style>
